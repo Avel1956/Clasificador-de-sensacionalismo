@@ -15,7 +15,7 @@ bcrypt==3.2.2
 beautifulsoup4==4.11.1
 bleach==5.0.0
 blinker==1.4
-blis @ file:///D:/bld/cython-blis_1649669996628/work
+
 brotlipy @ file:///D:/bld/brotlipy_1648854347500/work
 cachetools==5.2.0
 catalogue @ file:///D:/bld/catalogue_1649412306402/work
