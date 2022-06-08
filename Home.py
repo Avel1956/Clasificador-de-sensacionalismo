@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
 import spacy
 ###################################
 from st_aggrid import AgGrid
@@ -128,8 +127,8 @@ with c30:
     st.subheader("Frecuencia de datos ")
     st.text("")
 
-fig = px.histogram(df, x="labels")
-st.plotly_chart(fig, use_container_width=True)
+# fig = px.histogram(df, x="labels")
+# st.plotly_chart(fig, use_container_width=True)
 st.text("")
 
 txt= st.text_area('Texto a clasificar', '''Este es un texto de muestra, reemplace por el suyo''')
